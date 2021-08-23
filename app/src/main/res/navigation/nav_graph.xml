@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.felix.gotraining.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_formTrainingFragment"
+            app:destination="@id/formTrainingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_trainingFragment"
+            app:destination="@id/trainingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/formTrainingFragment"
+        android:name="com.felix.gotraining.ui.formTraining.FormTrainingFragment"
+        android:label="fragment_form_training"
+        tools:layout="@layout/fragment_form_training" />
+    <fragment
+        android:id="@+id/trainingFragment"
+        android:name="com.felix.gotraining.ui.training.TrainingFragment"
+        android:label="fragment_training"
+        tools:layout="@layout/fragment_training" >
+        <argument
+            android:name="training_id"
+            app:argType="long" />
+        <argument
+            android:name="training_name"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

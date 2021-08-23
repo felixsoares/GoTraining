@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Pernas e Glúteo",
+    "exercises": [
+      {
+        "name": "Agachamento livre",
+        "number": "01"
+      },
+      {
+        "name": "Agachamento Smith",
+        "number": "02"
+      },
+      {
+        "name": "Agachamento sumô",
+        "number": "03"
+      },
+      {
+        "name": "Agachamento c/ halter",
+        "number": "04"
+      },
+      {
+        "name": "Agachamento trx",
+        "number": "05"
+      },
+      {
+        "name": "Agachamento squat",
+        "number": "06"
+      },
+      {
+        "name": "Agachamento livre (front squat)",
+        "number": "07"
+      },
+      {
+        "name": "Agachamento terra sumô",
+        "number": "08"
+      },
+      {
+        "name": "Agachamento bulgaro",
+        "number": "09"
+      },
+      {
+        "name": "Avanço livre",
+        "number": "10"
+      },
+      {
+        "name": "Avanço Smith",
+        "number": "11"
+      },
+      {
+        "name": "Leg 45",
+        "number": "12"
+      },
+      {
+        "name": "Leg articulado",
+        "number": "13"
+      },
+      {
+        "name": "Mesa flexora",
+        "number": "14"
+      },
+      {
+        "name": "Cadeira flexora",
+        "number": "15"
+      },
+      {
+        "name": "Extensora",
+        "number": "16"
+      },
+      {
+        "name": "Abdução",
+        "number": "17"
+      },
+      {
+        "name": "Adução",
+        "number": "18"
+      },
+      {
+        "name": "Levantamento terra",
+        "number": "19"
+      },
+      {
+        "name": "Stiff c/ dumbells",
+        "number": "20"
+      },
+      {
+        "name": "Stiff pés separados",
+        "number": "21"
+      },
+      {
+        "name": "Stiff pés unidos",
+        "number": "22"
+      },
+      {
+        "name": "Passadas",
+        "number": "23"
+      },
+      {
+        "name": "Panturrilha leg articulado",
+        "number": "24"
+      },
+      {
+        "name": "Panturrilha em pé no squat",
+        "number": "25"
+      },
+      {
+        "name": "Panturrilha sentado",
+        "number": "26"
+      },
+      {
+        "name": "Panturrilha na escada",
+        "number": "27"
+      }
+    ]
+  },
+  {
+    "name": "Peitoral e Tríceps",
+    "exercises": [
+      {
+        "name": "Supino reto",
+        "number": "28"
+      },
+      {
+        "name": "Supino inclinado",
+        "number": "29"
+      },
+      {
+        "name": "Supino declinado",
+        "number": "30"
+      },
+      {
+        "name": "Supino reto c/ halter",
+        "number": "31"
+      },
+      {
+        "name": "Supino inclinado c/ halter",
+        "number": "32"
+      },
+      {
+        "name": "Supino declinado c/ halter",
+        "number": "33"
+      },
+      {
+        "name": "Supino reto Smith",
+        "number": "34"
+      },
+      {
+        "name": "Supino inclinado Smith",
+        "number": "35"
+      },
+      {
+        "name": "Crucifixo reto",
+        "number": "36"
+      },
+      {
+        "name": "Crucifixo inclinado",
+        "number": "37"
+      },
+      {
+        "name": "Crucifixo reto Pulley",
+        "number": "38"
+      },
+      {
+        "name": "Crucifixo inclinado Pulley",
+        "number": "39"
+      },
+      {
+        "name": "Voadora máquina",
+        "number": "40"
+      },
+      {
+        "name": "Voadora cross-over",
+        "number": "41"
+      },
+      {
+        "name": "Cross-over",
+        "number": "42"
+      },
+      {
+        "name": "Tríceps testa",
+        "number": "43"
+      },
+      {
+        "name": "Tríceps francês Pulley",
+        "number": "44"
+      },
+      {
+        "name": "Tríceps francês",
+        "number": "45"
+      },
+      {
+        "name": "Tríceps francês unilateral",
+        "number": "46"
+      },
+      {
+        "name": "Tríceps Pulley",
+        "number": "47"
+      },
+      {
+        "name": "Tríceps Pulley unilateral",
+        "number": "48"
+      },
+      {
+        "name": "Tríceps coice Pulley",
+        "number": "49"
+      },
+      {
+        "name": "Tríceps corda",
+        "number": "50"
+      },
+      {
+        "name": "Tríceps supinado",
+        "number": "51"
+      },
+      {
+        "name": "Tríceps testa Pulley",
+        "number": "52"
+      },
+      {
+        "name": "Tríceps banco",
+        "number": "53"
+      },
+      {
+        "name": "Apoio pegada fechada",
+        "number": "54"
+      }
+    ]
+  },
+  {
+    "name": "Dorsal e bíceps",
+    "exercises": [
+      {
+        "name": "Barra fixa",
+        "number": "55"
+      },
+      {
+        "name": "Levantamento terra",
+        "number": "56"
+      },
+      {
+        "name": "Meio terra",
+        "number": "57"
+      },
+      {
+        "name": "Remada curvada pronada",
+        "number": "58"
+      },
+      {
+        "name": "Remada curvada supinada",
+        "number": "59"
+      },
+      {
+        "name": "Remada cavalo",
+        "number": "60"
+      },
+      {
+        "name": "Remada unilateral",
+        "number": "61"
+      },
+      {
+        "name": "Remada curvada aberta",
+        "number": "62"
+      },
+      {
+        "name": "Remada Pulley baixo V",
+        "number": "63"
+      },
+      {
+        "name": "Remada sentada supinada",
+        "number": "64"
+      },
+      {
+        "name": "Remada sentada pronada",
+        "number": "65"
+      },
+      {
+        "name": "Remada sentada neutra",
+        "number": "66"
+      },
+      {
+        "name": "Remada curvada dumbells",
+        "number": "67"
+      },
+      {
+        "name": "Puxada alta",
+        "number": "68"
+      },
+      {
+        "name": "Puxada alta supinada",
+        "number": "69"
+      },
+      {
+        "name": "Puxada alta neutra",
+        "number": "70"
+      },
+      {
+        "name": "Puxada V",
+        "number": "71"
+      },
+      {
+        "name": "Pull over",
+        "number": "72"
+      },
+      {
+        "name": "Rosca direta",
+        "number": "73"
+      },
+      {
+        "name": "Rosca Scott",
+        "number": "74"
+      },
+      {
+        "name": "Rosca martelo",
+        "number": "75"
+      },
+      {
+        "name": "Rosca 21",
+        "number": "76"
+      },
+      {
+        "name": "Rosta Scott 90",
+        "number": "77"
+      },
+      {
+        "name": "Rosca direta Pulley",
+        "number": "78"
+      },
+      {
+        "name": "Rosca Scott Pulley",
+        "number": "79"
+      },
+      {
+        "name": "Rosca cross-over",
+        "number": "80"
+      },
+      {
+        "name": "Rosca c/ halter",
+        "number": "81"
+      },
+      {
+        "name": "Rosca halter unilateral",
+        "number": "82"
+      },
+      {
+        "name": "Rosca martelo Pulley",
+        "number": "83"
+      },
+      {
+        "name": "Rosca c/ halter concentrada",
+        "number": "84"
+      },
+      {
+        "name": "Rosca c/ halter Arnold",
+        "number": "85"
+      },
+      {
+        "name": "Rosca inversa",
+        "number": "86"
+      },
+      {
+        "name": "Rosca inversa Pulley",
+        "number": "87"
+      },
+      {
+        "name": "Flexão de punhos",
+        "number": "88"
+      }
+    ]
+  },
+  {
+    "name": "Ombros e Abdominais",
+    "exercises": [
+      {
+        "name": "Desenvolvimento barra",
+        "number": "89"
+      },
+      {
+        "name": "Desenvolvimento halter",
+        "number": "90"
+      },
+      {
+        "name": "Desenvolvimento Smith",
+        "number": "91"
+      },
+      {
+        "name": "Desenvolvimento Militar em pé",
+        "number": "92"
+      },
+      {
+        "name": "Desenvolvimento articulado",
+        "number": "93"
+      },
+      {
+        "name": "Elevação frontal halter",
+        "number": "94"
+      },
+      {
+        "name": "Elevação frontal halter sentado",
+        "number": "95"
+      },
+      {
+        "name": "Elevação lateral Pulley",
+        "number": "96"
+      },
+      {
+        "name": "Elevação lateral Pulley unilateral",
+        "number": "97"
+      },
+      {
+        "name": "Remada alta polia",
+        "number": "98"
+      },
+      {
+        "name": "Elevação frontal anilha",
+        "number": "99"
+      },
+      {
+        "name": "Elevação frontal Pulley",
+        "number": "100"
+      },
+      {
+        "name": "Elevação frontal barra",
+        "number": "101"
+      },
+      {
+        "name": "Elevação lateral",
+        "number": "102"
+      },
+      {
+        "name": "Elevação lateral banco inclinado",
+        "number": "103"
+      },
+      {
+        "name": "Elevação de ombros",
+        "number": "104"
+      },
+      {
+        "name": "Grande remada",
+        "number": "105"
+      },
+      {
+        "name": "Crucifixo invertido máqina",
+        "number": "106"
+      },
+      {
+        "name": "Crucifixo invertido c/ halter",
+        "number": "107"
+      },
+      {
+        "name": "Crucifixo invertido polia",
+        "number": "108"
+      },
+      {
+        "name": "Extensão lombar",
+        "number": "109"
+      },
+      {
+        "name": "Lombar horizontal",
+        "number": "110"
+      },
+      {
+        "name": "Abs bola",
+        "number": "112"
+      },
+      {
+        "name": "Abs prancha lateral",
+        "number": "113"
+      },
+      {
+        "name": "Abs infra",
+        "number": "114"
+      },
+      {
+        "name": "Abs obliquo",
+        "number": "115"
+      },
+      {
+        "name": "Abs completo",
+        "number": "116"
+      }
+    ]
+  }
+]
