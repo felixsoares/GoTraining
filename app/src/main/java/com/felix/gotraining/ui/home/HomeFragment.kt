@@ -89,6 +89,7 @@ class HomeFragment : Fragment() {
         }
         binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.recyclerView.adapter = adapter
+        binding.toolbar.title = "GoTraining"
     }
 
 }

@@ -1,7 +1,5 @@
 package com.felix.gotraining.ui.formTraining
 
-import android.app.Dialog
-import android.content.DialogInterface
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,8 +31,8 @@ class FormTrainingFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupObservers()
         setupView()
+        setupObservers()
         viewModel.loadExercisesByGroup()
     }
 
@@ -45,6 +43,10 @@ class FormTrainingFragment : Fragment() {
             )
         }
         binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        binding.toolbar.title = "Criar treino"
+        binding.toolbar.setNavigationOnClickListener {
+            findNavController().popBackStack()
+        }
     }
 
     private fun setupObservers() {
