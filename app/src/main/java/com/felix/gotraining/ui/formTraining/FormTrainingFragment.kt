@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.felix.gotraining.data.model.GroupExercise
@@ -50,7 +49,7 @@ class FormTrainingFragment : Fragment() {
     }
 
     private fun setupObservers() {
-        viewModel.exercisesState.observe(this, Observer { resultState ->
+        viewModel.exercisesState.observe(viewLifecycleOwner, { resultState ->
             when (resultState) {
                 is ResultState.Success -> setExercisesView(resultState.data)
                 is ResultState.Loading -> setLoadingView()
@@ -58,7 +57,7 @@ class FormTrainingFragment : Fragment() {
             }
         })
 
-        viewModel.formState.observe(this, Observer { resultState ->
+        viewModel.formState.observe(viewLifecycleOwner, { resultState ->
             when (resultState) {
                 is ResultState.Success -> findNavController().popBackStack()
                 is ResultState.Error -> showErrorMessage()

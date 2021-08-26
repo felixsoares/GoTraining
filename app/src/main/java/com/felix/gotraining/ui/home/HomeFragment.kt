@@ -48,7 +48,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupObservers() {
-        viewModel.viewState.observe(this, { viewState ->
+        viewModel.viewState.observe(viewLifecycleOwner, { viewState ->
             when (viewState) {
                 is ResultState.Loading -> setLoadingView()
                 is ResultState.Error -> setEmptyView()

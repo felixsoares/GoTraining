@@ -2,6 +2,7 @@ package com.felix.gotraining
 
 import android.app.Application
 import com.felix.gotraining.data.database.databaseModule
+import com.felix.gotraining.data.local.localModule
 import com.felix.gotraining.data.repository.repositoryModule
 import com.felix.gotraining.ui.formTraining.formTrainingModule
 import com.felix.gotraining.ui.home.homeModule
@@ -20,6 +21,7 @@ class GoApplication : Application() {
                 listOf(
                     databaseModule,
                     repositoryModule,
+                    localModule,
                     mainUiModule,
                     homeModule,
                     formTrainingModule,

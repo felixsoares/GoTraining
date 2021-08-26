@@ -37,7 +37,7 @@ class TrainingFragment : Fragment() {
     }
 
     private fun setupObservers() {
-        viewModel.exercise.observe(this, { exercise ->
+        viewModel.exercise.observe(viewLifecycleOwner, { exercise ->
             binding.txtExerciseName.text = exercise.name
             binding.txtRepeatValue.text = "${exercise.repeat}"
             binding.txtSerieValue.text = "${exercise.range}"
@@ -46,7 +46,7 @@ class TrainingFragment : Fragment() {
             binding.recyclerView.adapter = weightAdapter
         })
 
-        viewModel.weights.observe(this, { weights ->
+        viewModel.weights.observe(viewLifecycleOwner, { weights ->
             weightAdapter.updateWeights(weights)
         })
     }

@@ -1,12 +1,8 @@
 package com.felix.gotraining.ui.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.felix.gotraining.R
-import com.felix.gotraining.data.model.GroupExercise
-import com.google.gson.Gson
-
-import com.google.gson.reflect.TypeToken
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
